@@ -1,7 +1,6 @@
 package stepDefinition;
 
 import pageObjects.CartPage;
-import pageObjects.HomePage;
 import cucumber.TestContext;
 import cucumber.api.java.en.When;
 

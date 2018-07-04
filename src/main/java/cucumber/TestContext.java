@@ -1,7 +1,7 @@
 package cucumber;
 
 import manager.DriverManager;
-import manager.PageObjectManager;
+import pageObjects.PageObjectManager;
 
 public class TestContext {
 
