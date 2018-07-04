@@ -46,7 +46,7 @@ public class Hooks {
 			File sourcePath=((TakesScreenshot)testContext.getDriverManager().getDriver()).getScreenshotAs(OutputType.FILE);
 			
 			
-			File destinationPath=new File("A:/Workspace/CucumberFramework/ucumberFramework/target/cucumber-reports/screenshots/"+screenShotName +".png");
+			File destinationPath=new File("A:/Workspace/CucumberFramework/CucumberFramework/target/cucumber-reports/screenshots/"+screenShotName +".png");
 			
 			try {
 				Files.copy(sourcePath, destinationPath);
